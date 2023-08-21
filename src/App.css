@@ -1,0 +1,105 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.app-container {
+  /* width: 100vw !important; */
+  width: 95vw !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.hero {
+  height: calc(100vh - 60px);
+  background-color: rgb(216, 255, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cart-item-container img {
+  width: 150px !important;
+}
+
+.cart-item-container {
+  margin: auto;
+  width: 70% !important;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  background-color: rgba(222, 255, 200, 0.623);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.cart-item-container h3 {
+  font-family: "Berlin Sans FB";
+}
+
+.cart-count {
+  width: 20px;
+  display: inline-block;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+}
+
+.cart-count-details:hover {
+  /* transform: scale(1); */
+  transition: 0.1s ease;
+  background-color: rgb(209, 209, 209);
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+
+.card {
+  box-shadow: 2px 2px 5px rgb(150, 150, 150);
+}
+.card-body {
+  background-color: rgba(199, 199, 199, 0.541);
+}
+.card-title {
+  background-color: rgba(252, 161, 161, 0.432);
+  padding: 10px;
+  border-radius: 10px;
+}
+.card:hover {
+  transition: 0.2s ease;
+  background-color: rgb(216, 216, 216) !important;
+}
+.card-img-top {
+  width: 100%;
+}
+.category-container,
+.meal-container,
+.cart-container {
+  min-height: calc(100vh - 60px);
+  background-color: rgb(223, 223, 223);
+  padding: 1rem;
+}
+/* 
+.cart-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+} */
+
+.cart-item-container .order-img {
+  display: inline;
+  height: 100px !important;
+  width: 100px !important;
+  margin: 1rem;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.order-item-name {
+  font-family: "century gothic";
+  font-weight: bold;
+  font-size: 1.4rem;
+}
